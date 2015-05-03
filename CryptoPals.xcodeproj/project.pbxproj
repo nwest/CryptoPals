@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E7009FE91AC0498B00A7297F /* NSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7009FE81AC0498B00A7297F /* NSData.swift */; };
+		E7009FEB1AC04F5000A7297F /* Input8.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7009FEA1AC04F5000A7297F /* Input8.swift */; };
 		E7471D561ABC6100009616C1 /* English.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7471D551ABC6100009616C1 /* English.swift */; };
 		E7471D581ABC6E87009616C1 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7471D571ABC6E87009616C1 /* Dictionary.swift */; };
 		E7471D5A1ABF4256009616C1 /* Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7471D591ABF4256009616C1 /* Zip.swift */; };
@@ -46,6 +47,7 @@
 		53AEEE1FCDC736F1E909E544 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2DB695ACEEFE57AA1D8891 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E7009FE81AC0498B00A7297F /* NSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSData.swift; sourceTree = "<group>"; };
+		E7009FEA1AC04F5000A7297F /* Input8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Input8.swift; sourceTree = "<group>"; };
 		E7471D551ABC6100009616C1 /* English.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = English.swift; sourceTree = "<group>"; };
 		E7471D571ABC6E87009616C1 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		E7471D591ABF4256009616C1 /* Zip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zip.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				E7471D601ABF4BD3009616C1 /* Input4.swift */,
 				E7471D641ABF5586009616C1 /* Input6.swift */,
 				E7A15B141ABFA8ED00877D77 /* Input7.swift */,
+				E7009FEA1AC04F5000A7297F /* Input8.swift */,
 			);
 			name = Inputs;
 			sourceTree = "<group>";
@@ -143,26 +146,26 @@
 		E7AEE1E41AB8AE8000DFF956 /* CryptoPals */ = {
 			isa = PBXGroup;
 			children = (
-				E7471D5D1ABF48AD009616C1 /* Inputs */,
+				E7A15B161ABFA9D400877D77 /* AES.swift */,
 				E7AEE1E71AB8AE8000DFF956 /* AppDelegate.swift */,
 				E7AEE2071AB8AEC900DFF956 /* Array.swift */,
 				E7AEE20B1AB8BBFC00DFF956 /* Base64.swift */,
+				E7471D661ABF70DE009616C1 /* Byte.swift */,
 				E78504111ABA420C0023A4A2 /* Character.swift */,
 				E7AEE2091AB8AF0A00DFF956 /* Chunk.swift */,
 				E7471D571ABC6E87009616C1 /* Dictionary.swift */,
 				E7471D551ABC6100009616C1 /* English.swift */,
 				E7AEE20D1AB8C71400DFF956 /* Hex.swift */,
 				E7AEE1EE1AB8AE8000DFF956 /* Images.xcassets */,
+				E7471D5D1ABF48AD009616C1 /* Inputs */,
 				E7AEE1F01AB8AE8000DFF956 /* LaunchScreen.xib */,
 				E7AEE1EB1AB8AE8000DFF956 /* Main.storyboard */,
+				E7009FE81AC0498B00A7297F /* NSData.swift */,
+				E7471D5B1ABF4785009616C1 /* Set1.swift */,
+				E7471D621ABF5299009616C1 /* String.swift */,
 				E7AEE1E51AB8AE8000DFF956 /* Supporting Files */,
 				E7AEE1E91AB8AE8000DFF956 /* ViewController.swift */,
 				E7471D591ABF4256009616C1 /* Zip.swift */,
-				E7471D5B1ABF4785009616C1 /* Set1.swift */,
-				E7471D621ABF5299009616C1 /* String.swift */,
-				E7471D661ABF70DE009616C1 /* Byte.swift */,
-				E7A15B161ABFA9D400877D77 /* AES.swift */,
-				E7009FE81AC0498B00A7297F /* NSData.swift */,
 			);
 			path = CryptoPals;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				E78504121ABA420C0023A4A2 /* Character.swift in Sources */,
 				E7009FE91AC0498B00A7297F /* NSData.swift in Sources */,
 				E7471D5C1ABF4785009616C1 /* Set1.swift in Sources */,
+				E7009FEB1AC04F5000A7297F /* Input8.swift in Sources */,
 				E7471D5A1ABF4256009616C1 /* Zip.swift in Sources */,
 				E7471D561ABC6100009616C1 /* English.swift in Sources */,
 				E7AEE1E81AB8AE8000DFF956 /* AppDelegate.swift in Sources */,
