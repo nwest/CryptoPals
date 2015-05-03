@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E7009FEB1AC04F5000A7297F /* Input8.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7009FEA1AC04F5000A7297F /* Input8.swift */; };
+		E73D91871AF6ABC300288D87 /* ByteBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D91861AF6ABC300288D87 /* ByteBag.swift */; };
 		E7471D561ABC6100009616C1 /* English.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7471D551ABC6100009616C1 /* English.swift */; };
 		E7471D581ABC6E87009616C1 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7471D571ABC6E87009616C1 /* Dictionary.swift */; };
 		E7471D5A1ABF4256009616C1 /* Zip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7471D591ABF4256009616C1 /* Zip.swift */; };
@@ -46,6 +47,7 @@
 		53AEEE1FCDC736F1E909E544 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2DB695ACEEFE57AA1D8891 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E7009FEA1AC04F5000A7297F /* Input8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Input8.swift; sourceTree = "<group>"; };
+		E73D91861AF6ABC300288D87 /* ByteBag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ByteBag.swift; sourceTree = "<group>"; };
 		E7471D551ABC6100009616C1 /* English.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = English.swift; sourceTree = "<group>"; };
 		E7471D571ABC6E87009616C1 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
 		E7471D591ABF4256009616C1 /* Zip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Zip.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				E7AEE1E51AB8AE8000DFF956 /* Supporting Files */,
 				E7AEE1E91AB8AE8000DFF956 /* ViewController.swift */,
 				E7471D591ABF4256009616C1 /* Zip.swift */,
+				E73D91861AF6ABC300288D87 /* ByteBag.swift */,
 			);
 			path = CryptoPals;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				E7AEE20A1AB8AF0A00DFF956 /* Chunk.swift in Sources */,
 				E7A15B171ABFA9D400877D77 /* AES.swift in Sources */,
 				E7A15B151ABFA8ED00877D77 /* Input7.swift in Sources */,
+				E73D91871AF6ABC300288D87 /* ByteBag.swift in Sources */,
 				E7471D611ABF4BD3009616C1 /* Input4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

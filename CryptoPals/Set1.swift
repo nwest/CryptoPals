@@ -15,8 +15,8 @@ func set1() {
 //    problem4()
 //    problem5()
 //    problem6()
-    problem7()
-//    problem8()
+//    problem7()
+    problem8()
 }
 
 func problem1() {
@@ -99,5 +99,23 @@ func problem7() {
 }
 
 func problem8() {
+    let inputs: [[UInt8]] = map(input8(), hexToRaw)
+    var sets: [Set<ByteBag>] = [Set<ByteBag>]()
 
+    for input in inputs {
+        var converted = [ByteBag]()
+        for chunk in input.by(16) {
+            converted.append(ByteBag(bytes: Array(chunk)))
+        }
+        let convertedSet: Set<ByteBag> = Set(converted)
+        sets.append(convertedSet)
+    }
+
+    let scores = map(sets) {$0.count}
+    let sortedScores = scores.sorted { (lhs, rhs) -> Bool in
+        return lhs < rhs
+    }
+    let index = find(scores, sortedScores.first!)!
+    let found = inputs[index]
+    println("\(found)")
 }
