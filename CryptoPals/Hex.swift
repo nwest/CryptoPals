@@ -9,12 +9,12 @@
 import Foundation
 
 func hexToRaw(s: String) -> [UInt8] {
-    let rawChunks = Array(Array(s).by(2))
+    let rawChunks = Array(s).by(2)
     let hexChunks: [String] = map(rawChunks, stringify)
     return map(hexChunks, bytes)
 }
 
-func stringify(s:Slice<Character>) -> String {
+func stringify(s:ArraySlice<Character>) -> String {
     return reduce(s, "", appendCharacter)
 }
 

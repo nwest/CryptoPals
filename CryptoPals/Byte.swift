@@ -9,7 +9,7 @@
 import Foundation
 
 func base2(bs:[UInt8]) -> [UInt8] {
-    let bst = map(bs, { Array(padBase2(String($0, radix:2), 8)) }).reduce([], +)
+    let bst = map(bs, { Array(padBase2(String($0, radix:2), 8)) }).reduce([], combine: +)
     return map(bst) { UInt8(String($0).toInt()!) }
 }
 

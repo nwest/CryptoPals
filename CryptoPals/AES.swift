@@ -11,9 +11,9 @@ import CryptoSwift
 
 func AES_ECB_128_decrypt(key: [UInt8], bs: [UInt8]) -> String {
 
-    if let aes = AES(key: NSData(key), iv:NSData(), blockMode: .ECB) {
-        if let decrypted = aes.decrypt(NSData(bs), removePadding: true) {
-            return englishString(decrypted.rawBytes())
+    if let aes = AES(key: key, blockMode: .ECB) {
+        if let decrypted = aes.decrypt(bs, padding: .None) {
+            return englishString(decrypted)
         }
     }
 

@@ -2,7 +2,7 @@ platform :ios, '8.0'
 
 use_frameworks!
 
-pod 'CryptoSwift', '~> 0.0.8'
+pod 'CryptoSwift', '~> 0.0.10'
 
 target 'CryptoPals' do
 

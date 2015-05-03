@@ -63,14 +63,13 @@ func problem6() {
 
         var chunkScores: [Float] = []
         for var i = 0; i < chunks.count - 2; i++ {
-            let this = Array(chunks[i])
-            let next = Array(chunks[i + 1])
-
-            let score: Float = hammingDistance(this, next) / Float($0)
+            let this: [UInt8] = Array(chunks[i])
+            let next: [UInt8] = Array(chunks[i + 1])
+            let score: Float = (hammingDistance(this, next) / Float($0))
             chunkScores.append(score)
         }
 
-        return chunkScores.reduce(0.0, +) / Float(numChunks)
+        return chunkScores.reduce(0.0, combine: +) / Float(numChunks)
     })
     let scoredKeySizes = sorted(Zip2(possibleKeySizes, keyScores)) { $0.1 < $1.1 }
     let (keySize, score) = scoredKeySizes.first!

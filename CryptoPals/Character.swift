@@ -14,7 +14,7 @@ func ord(c: Character) -> UInt8 {
 
 func chr(b: UInt8) -> Character {
     let bs = [b]
-    let s = NSString(bytes: bs, length: bs.count, encoding: NSUTF8StringEncoding) as String
+    let s = NSString(bytes: bs, length: bs.count, encoding: NSUTF8StringEncoding) as! String
     return Array(s)[0]
 }
 

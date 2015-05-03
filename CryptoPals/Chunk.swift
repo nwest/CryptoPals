@@ -30,14 +30,14 @@ class ChunkGenerator<T> : GeneratorType {
     var offset : Int = 0
     var end : Int = 0
 
-    typealias Element = Slice<T>
+    typealias Element = ArraySlice<T>
 
     init(ts: [T], size: Int) {
         collection = ts
         self.size = size
     }
 
-    func next() -> Slice<T>? {
+    func next() -> ArraySlice<T>? {
 
         if (reachedTheEnd()) {
             return .None
