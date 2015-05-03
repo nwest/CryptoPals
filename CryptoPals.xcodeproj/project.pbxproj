@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E7009FE91AC0498B00A7297F /* NSData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7009FE81AC0498B00A7297F /* NSData.swift */; };
 		E7009FEB1AC04F5000A7297F /* Input8.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7009FEA1AC04F5000A7297F /* Input8.swift */; };
 		E7471D561ABC6100009616C1 /* English.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7471D551ABC6100009616C1 /* English.swift */; };
 		E7471D581ABC6E87009616C1 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7471D571ABC6E87009616C1 /* Dictionary.swift */; };
@@ -46,7 +45,6 @@
 /* Begin PBXFileReference section */
 		53AEEE1FCDC736F1E909E544 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A2DB695ACEEFE57AA1D8891 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		E7009FE81AC0498B00A7297F /* NSData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSData.swift; sourceTree = "<group>"; };
 		E7009FEA1AC04F5000A7297F /* Input8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Input8.swift; sourceTree = "<group>"; };
 		E7471D551ABC6100009616C1 /* English.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = English.swift; sourceTree = "<group>"; };
 		E7471D571ABC6E87009616C1 /* Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
@@ -160,7 +158,6 @@
 				E7471D5D1ABF48AD009616C1 /* Inputs */,
 				E7AEE1F01AB8AE8000DFF956 /* LaunchScreen.xib */,
 				E7AEE1EB1AB8AE8000DFF956 /* Main.storyboard */,
-				E7009FE81AC0498B00A7297F /* NSData.swift */,
 				E7471D5B1ABF4785009616C1 /* Set1.swift */,
 				E7471D621ABF5299009616C1 /* String.swift */,
 				E7AEE1E51AB8AE8000DFF956 /* Supporting Files */,
@@ -350,7 +347,6 @@
 				E7471D631ABF5299009616C1 /* String.swift in Sources */,
 				E7AEE1EA1AB8AE8000DFF956 /* ViewController.swift in Sources */,
 				E78504121ABA420C0023A4A2 /* Character.swift in Sources */,
-				E7009FE91AC0498B00A7297F /* NSData.swift in Sources */,
 				E7471D5C1ABF4785009616C1 /* Set1.swift in Sources */,
 				E7009FEB1AC04F5000A7297F /* Input8.swift in Sources */,
 				E7471D5A1ABF4256009616C1 /* Zip.swift in Sources */,
